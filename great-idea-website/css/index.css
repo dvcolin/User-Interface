@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,4 +64,157 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/****************** Your code starts here! **************/
+
+/****************** START HEADER **************/
+
+
+/****************** NAVIGATION **************/
+.navbar {
+	display: inline-block;
+	background: #81a0ab;
+	width: 100%;
+	padding: 24px 0;
+	position: fixed;
+	top: 0;
+	vertical-align: middle;
+	z-index: 100;
+}
+
+.nav-link {
+	display: inline-block;
+	text-decoration: none;
+	color: #f1f7f7;
+	font-size: 18px;
+	padding: 0 8px;
+	margin: 0 48px;
+	vertical-align: middle;
+	transition: color 300ms ease-out;
+}
+
+.nav-link:hover {
+	color: #566877;
+}
+
+/****************** LOGO **************/
+
+.logo-container {
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	right: 24px;
+	top: 14px;
+}
+
+/****************** CALL TO ACTION **************/
+.cta {
+	height: 450px;
+	text-align: center;;
+	margin-top: 64px;
+	padding: 32px 0;
+}
+
+.cta-text {
+	width: 35%;
+	display: inline-block;
+	position: relative;
+	top: 50px;
+}
+
+.cta-heading {
+	font-size: 70px;
+	
+}
+
+.cta-button {
+	background: none;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 5px 25px;
+	margin-top: 16px;
+	transition: background 200ms ease-out, color 200ms ease-out;
+	color: #303f4c;
+}
+
+.cta-button:hover {
+	cursor: pointer;
+	background: #303f4c;
+	color: #f1f7f7;
+}
+
+.cta-image-container {
+	width: 40%;
+	height: 100%;;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/****************** END HEADER **************/
+
+
+/****************** START MAIN **************/
+
+main {
+	height: 75%;
+	width: 90%;
+	text-align: center;
+	padding: 16px 32px;
+	margin: 0 auto;
+}
+
+.main-section-half {
+	display: inline-block;
+	width: 45%;
+	text-align: left;
+	margin: 16px;
+}
+
+.middle-image-container {
+	margin: 32px 0;
+}
+
+.main-section-third {
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+	margin: 16px;
+}
+
+.section-title {
+	font-size: 20px;
+}
+
+.contact {
+	width: 90%;
+	margin: 32px auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contact-info {
+	margin: 24px 0;
+}
+
+
+/****************** END MAIN **************/
+
+
+/****************** START FOOTER **************/
+
+footer {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	height: 85px;
+	margin-top: 36px;
+	margin-bottom: 48px;
+}
+
+/****************** END FOOTER **************/
+
+
+hr {
+	border: 1px solid black;
+	width: 90%;
+}
